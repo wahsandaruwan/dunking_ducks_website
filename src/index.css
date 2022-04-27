@@ -1,13 +1,63 @@
-body {
+/* -------------Reset------------- */
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  position: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* -------------Common------------- */
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #34495e;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease-in;
+}
+
+/* -------------Navigation Bar------------- */
+.nav-bar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+/* ------Logo------ */
+.nav-bar .logo{
+  flex-basis: 20%;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nav-bar .logo > span{
+  background-color: #ffffff;
+  color: #34495e;
+  padding: 5px;
+}
+
+/* ------Navigation Menu------ */
+.nav-bar .menu{
+  flex-basis: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-bar .menu li{
+  margin-left: 70px;
+}
+
+.nav-bar .menu li > a:hover{
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffffff;
 }
