@@ -1,11 +1,12 @@
 import heroImage from "../images/hero-img.gif"
+import LargeButton from "./LargeButton"
 
 const Hero = () => {
     return (
         <>
             <div className="section hero-section">
                 <div className="hero-sub-content">
-                    <a href="#" className="btn-discord">Join Discord</a>
+                    <LargeButton clsName="hero-btn" btnTxt="Join Discord" btnUrl="https://discordapp.com" />
                 </div>
                 <div className="hero-main-content">
                     <div className="hero-img">
@@ -16,7 +17,7 @@ const Hero = () => {
                     </h1>
                 </div>
                 <div className="hero-sub-content">
-                    <a href="#" className="btn-start">More Details</a>
+                    <LargeButton clsName="hero-btn" btnTxt="More Details" btnUrl="https://discordapp.com" />
                 </div>
             </div>
         </>
