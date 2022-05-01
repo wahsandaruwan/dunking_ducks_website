@@ -1,9 +1,9 @@
-import heroImage from "../images/hero-img.png"
+import heroImage from "../images/hero-img.gif"
 
 const Hero = () => {
     return (
         <>
-            <div className="hero-section">
+            <div className="section hero-section">
                 <div className="hero-sub-content">
                     <a href="#" className="btn-discord">Join Discord</a>
                 </div>
@@ -12,7 +12,7 @@ const Hero = () => {
                         <img src={heroImage} alt="" />
                     </div>
                     <h1 className="hero-txt">
-                        Welcome to CryptoHub!
+                        Welcome to DunkingDucks!
                     </h1>
                 </div>
                 <div className="hero-sub-content">

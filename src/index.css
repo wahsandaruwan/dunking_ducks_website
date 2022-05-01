@@ -15,6 +15,15 @@ body{
   background-color: #34495e;
 }
 
+.section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 a{
   text-decoration: none;
   color: #ffffff;
@@ -44,10 +53,21 @@ a{
   height: 90px;
   font-size: 2rem;
   font-weight: 600;
-  background-color: transparent;
+  background-color: #ffffff;
   border: 2px #ffffff solid;
   border-radius: 50%;
   padding: 5px;
+  animation: rotate 5s infinite normal forwards ease-in;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg)
+  }
 }
 
 .nav-bar .logo > img{
@@ -78,12 +98,8 @@ a{
 
 /* -------------Hero Section------------- */
 .hero-section{
-  width: 100%;
-  min-height: 100vh;
   background-color: #2c3e50;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
 
 /* ------Hero Main Content------ */
@@ -97,9 +113,10 @@ a{
 
 .hero-section .hero-main-content .hero-img {
   max-width: 400px;
+  height: 400px;
   border-radius: 50%;
   overflow: hidden;
-  animation: scale 1s infinite alternate ease-in;
+  animation: scale 1s infinite alternate forwards ease-in;
 }
 
 @keyframes scale{
@@ -136,4 +153,33 @@ a{
 .hero-section .hero-sub-content > a:hover{
   background-color: transparent;
   color: #ffffff;
+}
+
+/* -------------About Section------------- */
+.about-section {
+  background-color: #34495e;
+  flex-direction: column;
+}
+
+.about-section .section-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 3rem;
+  font-family: 'Dancing Script';
+  margin-bottom: 100px;
+}
+
+.about-section .about-content{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-section .about-content .about-img{
+  min-width: 500px;
+  height: 500px;
+}
+
+.about-section .about-content .about-img > img{
+  width: 100%;
 }
