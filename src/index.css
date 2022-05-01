@@ -51,9 +51,6 @@ a{
 .nav-bar .logo{
   max-width: 90px;
   height: 90px;
-  font-size: 2rem;
-  font-weight: 600;
-  background-color: #ffffff;
   border: 2px #ffffff solid;
   border-radius: 50%;
   padding: 5px;
@@ -169,6 +166,7 @@ a{
   margin-bottom: 70px;
 }
 
+/* ------About Images------ */
 .about-section .about-content{
   display: flex;
   justify-content: center;
@@ -181,16 +179,18 @@ a{
   grid-template-columns: auto auto;
   margin: 0 10px;
   background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+}
+
+.about-section .about-content .about-imgs:hover{
+  transform: rotateZ(5deg);
 }
 
 .about-section .about-content .about-imgs > .about-img{
   max-width: 300px;
   overflow: hidden;
-  transition: all 0.3s ease-in;
-}
-
-.about-section .about-content .about-imgs>.about-img:hover{
-  transform: scale(1.05);
 }
 
 .about-section .about-content .about-imgs .about-img > img {
@@ -198,11 +198,18 @@ a{
   height: 100%;
 }
 
+/* ------About Texts------ */
 .about-section .about-content .about-txt {
   text-align: justify;
   flex-basis: 50%;
   background-color: #ffffff;
   color: #34495e;
-  padding: 20px;
+  padding: 30px;
   margin: 0 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in;
+}
+
+.about-section .about-content .about-txt:hover{
+  transform: rotateZ(5deg);
 }
