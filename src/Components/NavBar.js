@@ -17,11 +17,11 @@ const NavBar = () => {
                     <img src="/assets/logo.png" alt="" />
                 </div>
                 <ul className={`menu ${clicked ? "show-menu" : ""}`}>
-                    <li><Link to="hero" spy={true} smooth={true} offset={0}>Home</Link></li>
-                    <li><Link to="about" spy={true} smooth={true} offset={0}>About</Link></li>
-                    <li><Link to="roadmap" spy={true} smooth={true} offset={-70}>Roadmap</Link></li>
-                    <li><Link to="faq" spy={true} smooth={true} offset={0}>FAQ</Link></li>
-                    <li><Link to="team" spy={true} smooth={true} offset={0}>Team</Link></li>
+                    <li><Link activeClass="active" className="menu-link" to="hero" spy={true} smooth={true} offset={0}>Home</Link></li>
+                    <li><Link activeClass="active" className="menu-link" to="about" spy={true} smooth={true} offset={0}>About</Link></li>
+                    <li><Link activeClass="active" className="menu-link" to="roadmap" spy={true} smooth={true} offset={0}>Roadmap</Link></li>
+                    <li><Link activeClass="active" className="menu-link" to="faq" spy={true} smooth={true} offset={0}>FAQ</Link></li>
+                    <li><Link activeClass="active" className="menu-link" to="team" spy={true} smooth={true} offset={0}>Team</Link></li>
                 </ul>
                 <a className="menu-toggle-btn" onClick={() => setClicked(!clicked)}>{clicked ? <FaTimes /> : <GiHamburgerMenu />}</a>
             </nav>

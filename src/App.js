@@ -11,11 +11,13 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <Hero />
-      <About />
-      <RoadMap />
-      <Faq />
-      <Team />
+      <div className="scroll-container">
+        <Hero />
+        <About />
+        <RoadMap />
+        <Faq />
+        <Team />
+      </div>
       <Footer />
     </>
   )

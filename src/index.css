@@ -34,7 +34,7 @@ body{
   margin-bottom: 70px;
 }
 
-/* ------Buttons------ */
+/* ------Buttons & Links------ */
 a{
   text-decoration: none;
   color: #ffffff;
@@ -58,7 +58,7 @@ a{
   color: #ffffff;
 }
 
-/* ------Social Links------ */
+/* ------Social Media------ */
 .social-links {
   background-color: #34495e;
   width: 100%;
@@ -138,13 +138,16 @@ a{
   margin-left: 70px;
 }
 
-.nav-bar .menu li > a{
+.nav-bar .menu li .menu-link{
   color: #ffffff;
 }
 
-.nav-bar .menu li > a:hover{
-  padding: 5px 0;
-  border-top: 2px solid #ffffff;
+.nav-bar .menu li .menu-link.active {
+  font-family: 'Dancing Script';
+  font-size: 1.2rem;
+}
+
+.nav-bar .menu li .menu-link:hover{
   border-bottom: 2px solid #ffffff;
 }
 
@@ -527,14 +530,14 @@ a{
     margin-left: 0;
   }
 
-  .nav-bar .menu li > a {
+  .nav-bar .menu li .menu-link {
     display: block;
     padding: 0;
     padding: 20px 0;
     font-size: 0.9rem;
   }
 
-  .nav-bar .menu li > a:hover {
+  .nav-bar .menu li .menu-link:hover {
     padding: 20px 0;
     border: none;
   }
