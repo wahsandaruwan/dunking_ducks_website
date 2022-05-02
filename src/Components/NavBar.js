@@ -23,7 +23,7 @@ const NavBar = () => {
                     <li><Link activeClass="active" className="menu-link" to="faq" spy={true} smooth={true} offset={0}>FAQ</Link></li>
                     <li><Link activeClass="active" className="menu-link" to="team" spy={true} smooth={true} offset={0}>Team</Link></li>
                 </ul>
-                <a href="#" className="menu-toggle-btn" onClick={() => setClicked(!clicked)}>{clicked ? <FaTimes /> : <GiHamburgerMenu />}</a>
+                <a href="/#" className="menu-toggle-btn" onClick={() => setClicked(!clicked)}>{clicked ? <FaTimes /> : <GiHamburgerMenu />}</a>
             </nav>
         </>
     )
