@@ -10,9 +10,9 @@ const Team = () => {
                 </h1>
                 <div className="team-content">
                     {
-                        teamData.map((member, index) => {
+                        teamData.map((item, index) => {
                             return (
-                                <Member image={member.image} name={member.name} position={member.position} facebook={member.facebook} twitter={member.twitter} instagram={member.instagram} linkedin={member.linkedin} key={index} />
+                                <Member image={item.image} name={item.name} position={item.position} facebook={item.facebook} twitter={item.twitter} instagram={item.instagram} linkedin={item.linkedin} key={index} />
                             )
                         })
                     }
