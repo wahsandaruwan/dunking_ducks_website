@@ -20,7 +20,7 @@ const Faq = () => {
 
     return (
         <>
-            <div className="section faq-section">
+            <div className="section faq-section" id="faq">
                 <h1 className="section-title">
                     FAQ!
                 </h1>

@@ -6,7 +6,7 @@ import roadMapData from "../data/roadMapData.json"
 const RoadMap = () => {
     return (
         <>
-            <div className="section roadmap-section">
+            <div className="section roadmap-section" id="roadmap">
                 <h1 className="section-title">
                     Road Map!
                 </h1>

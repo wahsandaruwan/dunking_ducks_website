@@ -4,7 +4,7 @@ import LargeButton from "./LargeButton"
 const Hero = () => {
     return (
         <>
-            <div className="section hero-section">
+            <div className="section hero-section" id="hero">
                 <div className="hero-sub-content">
                     <LargeButton clsName="main-btn" btnTxt="Join Discord" btnUrl="https://discordapp.com" />
                 </div>

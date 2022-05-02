@@ -6,7 +6,7 @@ import teamData from "../data/teamData.json"
 const Team = () => {
     return (
         <>
-            <div className="section team-section">
+            <div className="section team-section" id="team">
                 <h1 className="section-title">
                     Out Team!
                 </h1>
