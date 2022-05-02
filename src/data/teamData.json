@@ -1,0 +1,42 @@
+[
+    {
+        "id" : 1,
+        "image": "/assets/img1.png",
+        "name": "Zu Win",
+        "position": "Founder, Marketing",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://www.twitter.com",
+        "instagram": "https://www.instagram.com",
+        "linkedin": "https://www.linkedin.com"
+    },
+    {
+        "id" : 2,
+        "image": "/assets/img2.png",
+        "name": "Victor Levin",
+        "position": "Founder & Development",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://www.twitter.com",
+        "instagram": "https://www.instagram.com",
+        "linkedin": "https://www.linkedin.com"
+    },
+    {
+        "id" : 3,
+        "image": "/assets/img3.png",
+        "name": "John Doe",
+        "position": "Founder & Finance",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://www.twitter.com",
+        "instagram": "https://www.instagram.com",
+        "linkedin": "https://www.linkedin.com"
+    },
+    {
+        "id" : 4,
+        "image": "/assets/img4.png",
+        "name": "Maya Rae",
+        "position": "Founder & Accounting",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://www.twitter.com",
+        "instagram": "https://www.instagram.com",
+        "linkedin": "https://www.linkedin.com"
+    }
+]

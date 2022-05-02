@@ -37,7 +37,7 @@ a{
   color: #ffffff;
   cursor: pointer;
   font-size: 1rem;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
 }
 
 /* -------------Navigation Bar------------- */
@@ -62,7 +62,7 @@ a{
   border: 2px #ffffff solid;
   border-radius: 50%;
   padding: 5px;
-  animation: rotate 5s infinite normal forwards ease-in;
+  animation: rotate 5s infinite normal forwards ease-in-out;
 }
 
 @keyframes rotate {
@@ -121,7 +121,7 @@ a{
   height: 400px;
   border-radius: 50%;
   overflow: hidden;
-  animation: scale 1s infinite alternate forwards ease-in;
+  animation: scale 1s infinite alternate forwards ease-in-out;
 }
 
 @keyframes scale{
@@ -152,7 +152,7 @@ a{
   padding: 20px 30px;
   font-size: 1.2rem;
   border-radius: 20px;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
 }
 
 .hero-section .hero-sub-content .hero-btn:hover{
@@ -181,7 +181,7 @@ a{
   background-color: #ffffff;
   border-radius: 20px;
   overflow: hidden;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
 }
 
 .about-section .about-content .about-imgs:hover{
@@ -207,7 +207,7 @@ a{
   padding: 30px;
   margin: 0 20px;
   border-radius: 20px;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
 }
 
 .about-section .about-content .about-txt:hover{
@@ -243,7 +243,7 @@ a{
   left: -44px;
   top: 50%;
   transform: translateY(-50%);
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
 }
 
 .roadmap-section .roadmap-content .event:hover::before{
@@ -280,7 +280,7 @@ a{
   color: #2c3e50;
 }
 
-/* -------------Road Map Section------------- */
+/* -------------Faq Section------------- */
 .faq-section {
   background-color: #34495e;
   flex-direction: column;
@@ -323,7 +323,7 @@ a{
 .faq-section .faq-content .qna-content .question .dropdown-icon{
   min-width: 15px;
   min-height: 15px;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
 }
 
 .faq-section .faq-content .qna-content .question .dropdown-icon.rotate {
@@ -334,7 +334,7 @@ a{
 .faq-section .faq-content .qna-content .answer {
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
 }
 
 .faq-section .faq-content .qna-content .answer .answer-txt {
@@ -346,4 +346,87 @@ a{
 
 .faq-section .faq-content .qna-content .answer.show {
   max-height: 300px;
+}
+
+/* -------------Team Section------------- */
+.team-section {
+  background-color: #2c3e50;
+  flex-direction: column;
+}
+
+.team-section .team-content {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-section .team-content .team-member{
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+
+.team-section .team-content .team-member .member-img{
+  max-width: 200px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-section .team-content .team-member .member-img:hover{
+  transform: scale(0.95)
+}
+
+.team-section .team-content .team-member .member-img > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.team-section .team-content .team-member .member-details{
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.team-section .team-content .team-member .member-details .member-name{
+  font-size: 1.1rem;
+}
+
+.team-section .team-content .team-member .member-details .member-position {
+  font-size: 0.9rem;
+}
+
+.team-section .team-content .team-member .social-links{
+  background-color: #2c3e50;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.team-section .team-content .team-member .social-links .so-btn{
+  width: 22px;
+  height: 22px;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-section .team-content .team-member .social-links .so-btn:hover{
+  transform: scale(0.90);
+}
+
+.team-section .team-content .team-member .social-links .so-btn > svg{
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
 }

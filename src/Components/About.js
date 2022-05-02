@@ -1,8 +1,3 @@
-import aboutImage1 from "../images/img1.png"
-import aboutImage2 from "../images/img2.png"
-import aboutImage3 from "../images/img3.png"
-import aboutImage4 from "../images/img4.png"
-
 const About = () => {
     return (
         <>
@@ -13,16 +8,16 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-imgs">
                         <div className="about-img">
-                            <img src={aboutImage1} alt="" />
+                            <img src="/assets/img1.png" alt="" />
                         </div>
                         <div className="about-img">
-                            <img src={aboutImage2} alt="" />
+                            <img src="/assets/img2.png" alt="" />
                         </div>
                         <div className="about-img">
-                            <img src={aboutImage3} alt="" />
+                            <img src="/assets/img3.png" alt="" />
                         </div>
                         <div className="about-img">
-                            <img src={aboutImage4} alt="" />
+                            <img src="/assets/img4.png" alt="" />
                         </div>
                     </div>
                     <div className="about-txt">

@@ -1,4 +1,3 @@
-import heroImage from "../images/hero-img.gif"
 import LargeButton from "./LargeButton"
 
 const Hero = () => {
@@ -10,7 +9,7 @@ const Hero = () => {
                 </div>
                 <div className="hero-main-content">
                     <div className="hero-img">
-                        <img src={heroImage} alt="" />
+                        <img src="/assets/hero-img.gif" alt="" />
                     </div>
                     <h1 className="hero-txt">
                         Welcome to DunkingDucks!
