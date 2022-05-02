@@ -1,3 +1,4 @@
+// Custom Components
 import About from "./Components/About";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";

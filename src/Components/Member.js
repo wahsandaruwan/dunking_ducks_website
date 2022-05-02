@@ -1,3 +1,4 @@
+// Icons
 import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa"
 
 const Member = ({ image, name, position, facebook, twitter, instagram, linkedin }) => {

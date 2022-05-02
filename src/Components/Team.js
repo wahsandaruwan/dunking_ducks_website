@@ -1,4 +1,6 @@
+// Custom Component
 import Member from "./Member"
+// Data
 import teamData from "../data/teamData.json"
 
 const Team = () => {

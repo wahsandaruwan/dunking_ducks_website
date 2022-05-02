@@ -1,5 +1,7 @@
-import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa"
+// Custom Components
 import LargeButton from "./LargeButton"
+// Icons
+import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa"
 
 const Footer = () => {
     return (

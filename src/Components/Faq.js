@@ -1,10 +1,15 @@
+// Inbuilt Modules
 import { useState } from "react";
+// Custom Component
 import QnA from "./QnA"
+// Data
 import faqData from "../data/faqData.json"
 
 const Faq = () => {
+    // Q & A State
     const [clicked, setClicked] = useState(false)
 
+    // Show & Hide Answer
     const toggleAnswer = (index) => {
         if (clicked === index) {
             return setClicked(null)

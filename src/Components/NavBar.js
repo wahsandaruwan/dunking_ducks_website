@@ -1,10 +1,13 @@
+// Inbuilt Modules
 import { useState } from "react"
+// Icons
 import { GiHamburgerMenu } from "react-icons/gi"
 import { FaTimes } from "react-icons/fa"
 
 const NavBar = () => {
+    // Navigation Menu State
     const [clicked, setClicked] = useState(false)
-    console.log(clicked)
+
     return (
         <>
             <nav className="nav-bar">

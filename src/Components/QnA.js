@@ -1,5 +1,4 @@
 const QnA = ({ question, answer, clickFunc, clickedState, indexValue }) => {
-    console.log(question)
     return (
         <>
             <div className="qna-content" onClick={() => clickFunc(indexValue)}>

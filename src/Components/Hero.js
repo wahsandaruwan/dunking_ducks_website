@@ -1,3 +1,4 @@
+// Custom Component
 import LargeButton from "./LargeButton"
 
 const Hero = () => {

@@ -1,4 +1,6 @@
+// Custom Component
 import Step from "./Step"
+// Data
 import roadMapData from "../data/roadMapData.json"
 
 const RoadMap = () => {
