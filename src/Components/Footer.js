@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
                 <div className="credit">
                     <p className="company">DunkingDucks All Rights Reserved : Copyright &copy; 2022</p>
-                    <p className="Thanks">Thank you for your Support!</p>
+                    <p className="thanks">Thank you for your Support!</p>
                 </div>
             </div>
         </>

@@ -84,13 +84,13 @@ a{
 
 /* -------------Navigation Bar------------- */
 .nav-bar{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
   width: 100%;
   color: #ffffff;
-  background-color: #34495e;
+  background-color: #435b74;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,8 +139,11 @@ a{
 }
 
 .nav-bar .menu li > a:hover{
-  padding-bottom: 5px;
   border-bottom: 2px solid #ffffff;
+}
+
+.nav-bar .menu-toggle-btn{
+  display: none;
 }
 
 /* -------------Hero Section------------- */
@@ -180,6 +183,7 @@ a{
 }
 
 .hero-section .hero-main-content .hero-txt{
+  text-align: center;
   color: #ffffff;
   font-size: 4rem;
   margin-top: 10px;
@@ -340,7 +344,8 @@ a{
 
 .faq-section .faq-content .qna-content .question .question-txt{
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   color: #2c3e50;
   margin-right: auto;
 }
@@ -469,4 +474,159 @@ a{
 
 .footer-section .credit .thanks{
   font-size: 0.9rem;
+}
+
+/* -------------Media Queries------------- */
+@media(max-width: 1270px){
+  /* ------Common------ */
+  .main-btn{
+    font-size: 0.8rem;
+    padding: 12px 20px;
+  }
+
+  .section-title{
+    font-size: 2.2rem;
+  }
+
+  /* ------Navigation Bar------ */
+  .nav-bar{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .nav-bar .logo{
+    flex-basis: 100%;
+    max-width: 60px;
+    height: 60px;
+    margin: 10px 0;
+  }
+
+  .nav-bar .menu {
+    position: absolute;
+    top: 84px;
+    left: -100%;
+    display: block;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #435b74;
+    padding: 0;
+    padding: 10px 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-bar .menu li {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .nav-bar .menu li > a {
+    display: block;
+    padding: 0;
+    padding: 20px 0;
+    font-size: 0.9rem;
+  }
+
+  .nav-bar .menu li > a:hover {
+    border-bottom: none;
+  }
+
+  /* Toggle menu */
+  .nav-bar .menu-toggle-btn{
+    display: block;
+    position: absolute;
+    top: 32px;
+    right: 30px;
+    font-size: 1.5rem;
+  }
+
+  .nav-bar .menu.show-menu{
+    left: 0;
+  }
+
+  /* ------Hero Section------ */
+  .hero-section{
+    flex-direction: column;
+  }
+  
+  .hero-section .hero-main-content .hero-img {
+    max-width: 200px;
+    height: 200px;
+  }
+
+  .hero-section .hero-main-content .hero-txt{
+    font-size: 2.5rem;
+  }
+
+  .hero-section .hero-sub-content{
+    margin: 50px 0;
+  }
+
+  /* ------About Section------ */
+  .about-section .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-section .about-content .about-imgs {
+    flex-basis: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .about-section .about-content .about-imgs > .about-img {
+    max-width: 200px;
+  }
+
+  .about-section .about-content .about-txt {
+    max-width: 400px;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  /* ------Road Map Section------ */
+  .roadmap-section .roadmap-content .event .step-no {
+    position: static;
+  }
+  
+  .roadmap-section .roadmap-content .event {
+    margin: 30px 0;
+  }
+  
+  .roadmap-section .roadmap-content .event .step-content .step-name {
+    font-size: 1.8rem;
+  }
+
+  .roadmap-section .roadmap-content .event .step-content .step-details {
+    font-size: 0.9rem;
+  }
+
+  /* ------Faq Section------ */
+  .faq-section .faq-content .qna-content .question .question-txt{
+    font-size: 1rem;
+  }
+
+  .faq-section .faq-content .qna-content .answer .answer-txt{
+    font-size: 0.8rem;
+  }
+
+  /* ------Team Section------ */
+  .team-section .team-content {
+    flex-direction: column;
+  }
+  
+  .team-section .team-content .team-member {
+    margin: 0;
+    margin: 10px 0;
+  }
+
+  /* ------Footer Section------ */
+  .footer-section .credit .company {
+    font-size: 0.8rem;
+  }
+  
+  .footer-section .credit .thanks {
+    font-size: 0.7rem;
+  }
 }
