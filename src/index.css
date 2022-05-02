@@ -143,6 +143,8 @@ a{
 }
 
 .nav-bar .menu li > a:hover{
+  padding: 5px 0;
+  border-top: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
 }
 
@@ -533,7 +535,8 @@ a{
   }
 
   .nav-bar .menu li > a:hover {
-    border-bottom: none;
+    padding: 20px 0;
+    border: none;
   }
 
   /* Toggle menu */
