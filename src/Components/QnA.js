@@ -1,3 +1,4 @@
+// Icons
 import { IoIosArrowDropdown } from "react-icons/io"
 
 const QnA = ({ question, answer, clickFunc, clickedState, indexValue }) => {
