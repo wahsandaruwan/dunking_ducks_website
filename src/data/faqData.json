@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "question": "What is your total collection supply? Where will you be minting?",
+        "answer": "A: 3,333 Dunking Duck NFT’s! We’ll be minting through our website!"
+    },
+    {
+        "id" : 2,
+        "question": "How much is a Dunking Duck NFT? And do I own commercial rights?",
+        "answer": "A: 0.08 - 0.09 ETH! Yes, all our holders own commercial rights!"
+    },
+    {
+        "id" : 3,
+        "question": "Is your collection fairly distributed?",
+        "answer": "A: Yes! We do not do bonding curves. Joining The Franchise costs the same for everyone!"
+    }
+]
