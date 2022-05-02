@@ -373,6 +373,7 @@ a{
   border-radius: 20px;
 }
 
+/* ------Image------ */
 .team-section .team-content .team-member .member-img{
   max-width: 200px;
   margin-bottom: 10px;
@@ -391,6 +392,7 @@ a{
   border-radius: 20px;
 }
 
+/* ------Details------ */
 .team-section .team-content .team-member .member-details{
   text-align: center;
   color: #2c3e50;
@@ -405,6 +407,7 @@ a{
   font-size: 0.9rem;
 }
 
+/* ------Social Links------ */
 .team-section .team-content .team-member .social-links{
   background-color: #2c3e50;
   width: 100%;

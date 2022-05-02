@@ -13,5 +13,20 @@
         "id" : 3,
         "question": "Is your collection fairly distributed?",
         "answer": "A: Yes! We do not do bonding curves. Joining The Franchise costs the same for everyone!"
+    },
+    {
+        "id" : 4,
+        "question": "What are the specs?",
+        "answer": "A: Each Dunking Duck is unique and randomly generated from over 130 possible traits, including expression, headwear, eyewear, clothing, and more!"
+    },
+    {
+        "id" : 5,
+        "question": "What are the utilities associated with the collection?",
+        "answer": "A: Holding a Duck gives you access to HUGE giveaways, NBA tickets, signed merchandise, player meet ups, Dunking Dunk events, and our exclusive community “the franchise” some lucky members will be selected to partake in some crazy basketball experiences (NBA summer league in las vegas, pre draft workouts, private events)"
+    },
+    {
+        "id" : 6,
+        "question": "When are presale and general launch dates?",
+        "answer": "presale (1,000) : TBA | mint (2,333) : TBA"
     }
 ]
