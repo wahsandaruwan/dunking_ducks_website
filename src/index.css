@@ -361,8 +361,8 @@ a{
 
 /* ------Icon------ */
 .faq-section .faq-content .qna-content .question .dropdown-icon{
-  min-width: 15px;
-  min-height: 15px;
+  min-width: 20px;
+  min-height: 20px;
   transition: all 0.3s ease-in-out;
 }
 
