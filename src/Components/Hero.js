@@ -5,7 +5,7 @@ const Hero = () => {
         <>
             <div className="section hero-section">
                 <div className="hero-sub-content">
-                    <LargeButton clsName="hero-btn" btnTxt="Join Discord" btnUrl="https://discordapp.com" />
+                    <LargeButton clsName="main-btn" btnTxt="Join Discord" btnUrl="https://discordapp.com" />
                 </div>
                 <div className="hero-main-content">
                     <div className="hero-img">
@@ -16,7 +16,7 @@ const Hero = () => {
                     </h1>
                 </div>
                 <div className="hero-sub-content">
-                    <LargeButton clsName="hero-btn" btnTxt="More Details" btnUrl="https://discordapp.com" />
+                    <LargeButton clsName="main-btn" btnTxt="More Details" btnUrl="https://discordapp.com" />
                 </div>
             </div>
         </>
