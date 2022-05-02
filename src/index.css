@@ -512,7 +512,7 @@ a{
 
   .nav-bar .menu {
     position: absolute;
-    top: 84px;
+    top: 70px;
     left: -100%;
     display: block;
     width: 100%;
@@ -546,9 +546,10 @@ a{
   .nav-bar .menu-toggle-btn{
     display: block;
     position: absolute;
-    top: 32px;
+    top: 24px;
     right: 30px;
     font-size: 1.5rem;
+    max-height: 24px;
   }
 
   .nav-bar .menu.show-menu{
