@@ -1,5 +1,6 @@
 // Custom Component
 import LargeButton from "./LargeButton"
+import BgAnimation from "./BgAnimation"
 // Typewriter
 import TypeWriterEffect from "react-typewriter-effect"
 
@@ -7,6 +8,7 @@ const Hero = () => {
     return (
         <>
             <div className="section hero-section" id="hero">
+                <BgAnimation />
                 <div className="hero-sub-content left">
                     <LargeButton clsName="main-btn" btnTxt="Join Discord" btnUrl="https://discordapp.com" />
                 </div>
@@ -18,7 +20,7 @@ const Hero = () => {
                         <TypeWriterEffect
                             textStyle={{
                                 fontFamily: "Dancing Script",
-                                fontSize: "4rem",
+                                fontSize: "3.5rem",
                                 textAlign: "center"
                             }}
                             startDelay={100}
