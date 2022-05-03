@@ -440,6 +440,7 @@ a{
   justify-content: flex-end;
   width: 50%;
   position: relative;
+  z-index: 90;
   margin: 30px 0;
   padding-right: 30px;
 }
@@ -461,7 +462,6 @@ a{
   border-radius: 50%;
   background-color: #4d4c4c;
   top: 50%;
-  z-index: 90;
   transform: translateY(-50%);
   transition: all 0.3s ease-in-out;
 }

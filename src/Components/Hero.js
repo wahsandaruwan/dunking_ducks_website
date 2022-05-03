@@ -1,10 +1,20 @@
+// Inbuilt Modules
+import { useEffect } from "react";
 // Custom Component
 import LargeButton from "./LargeButton"
 import BgAnimation from "./BgAnimation"
 // Typewriter
 import TypeWriterEffect from "react-typewriter-effect"
+// Scroll Animation
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const Hero = () => {
+    // Global Animations
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
+
     return (
         <>
             <div className="section hero-section" id="hero">
@@ -13,7 +23,7 @@ const Hero = () => {
                     <LargeButton clsName="main-btn" btnTxt="Join Discord" btnUrl="https://discordapp.com" />
                 </div>
                 <div className="hero-main-content">
-                    <div className="hero-img">
+                    <div data-aos="fade" className="hero-img">
                         <img src="/assets/hero-img.gif" alt="" />
                     </div>
                     <h1 className="hero-txt">

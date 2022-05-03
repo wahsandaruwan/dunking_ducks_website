@@ -1,18 +1,26 @@
 // Inbuilt Modules
-import { useState } from "react"
+import { useState, useEffect } from "react"
 // Icons
 import { GiHamburgerMenu } from "react-icons/gi"
 import { FaTimes } from "react-icons/fa"
 // Scroll
 import { Link } from "react-scroll"
+// Scroll Animation
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const NavBar = () => {
     // Navigation Menu State
     const [clicked, setClicked] = useState(false)
 
+    // Global Animations
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
+
     return (
         <>
-            <nav className="nav-bar">
+            <nav data-aos="slide-down" className="nav-bar">
                 <div className="logo">
                     <img src="/assets/logo.png" alt="" />
                 </div>

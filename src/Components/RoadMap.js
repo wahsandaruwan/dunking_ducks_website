@@ -1,11 +1,21 @@
+// Inbuilt Modules
+import { useEffect } from "react";
 // Custom Component
 import Step from "./Step"
 // Data
 import roadMapData from "../data/roadMapData.json"
 // Typewriter
 import TypeWriterEffect from "react-typewriter-effect"
+// Scroll Animation
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const RoadMap = () => {
+    // Global Animations
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
+
     return (
         <>
             <div className="section roadmap-section" id="roadmap">
@@ -27,7 +37,7 @@ const RoadMap = () => {
                         roadMapData.map((item, index) => {
                             return (
                                 <>
-                                    <div className="event" key={index}>
+                                    <div data-aos="flip-up" className="event" key={index}>
                                         <Step stepName={item.stepName} stepDetails={item.stepDetails} />
                                     </div>
                                 </>
