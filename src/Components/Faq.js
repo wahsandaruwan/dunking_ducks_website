@@ -4,6 +4,8 @@ import { useState } from "react";
 import QnA from "./QnA"
 // Data
 import faqData from "../data/faqData.json"
+// Typewriter
+import TypeWriterEffect from "react-typewriter-effect"
 
 const Faq = () => {
     // Q & A State
@@ -22,7 +24,17 @@ const Faq = () => {
         <>
             <div className="section faq-section" id="faq">
                 <h1 className="section-title">
-                    FAQ!
+                    <TypeWriterEffect
+                        textStyle={{
+                            fontFamily: "Dancing Script",
+                            fontSize: "3rem",
+                            textAlign: "center"
+                        }}
+                        startDelay={100}
+                        cursorColor="#ffffff"
+                        text="Frequently Asked Questions!"
+                        typeSpeed={100}
+                    />
                 </h1>
                 <div className="faq-content">
                     {

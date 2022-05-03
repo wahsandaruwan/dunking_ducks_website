@@ -2,13 +2,25 @@
 import Member from "./Member"
 // Data
 import teamData from "../data/teamData.json"
+// Typewriter
+import TypeWriterEffect from "react-typewriter-effect"
 
 const Team = () => {
     return (
         <>
             <div className="section team-section" id="team">
                 <h1 className="section-title">
-                    Out Team!
+                    <TypeWriterEffect
+                        textStyle={{
+                            fontFamily: "Dancing Script",
+                            fontSize: "3rem",
+                            textAlign: "center"
+                        }}
+                        startDelay={100}
+                        cursorColor="#ffffff"
+                        text="Our Team!"
+                        typeSpeed={100}
+                    />
                 </h1>
                 <div className="team-content">
                     {

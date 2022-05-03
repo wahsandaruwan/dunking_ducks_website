@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <>
             <div className="section hero-section" id="hero">
-                <div className="hero-sub-content">
+                <div className="hero-sub-content left">
                     <LargeButton clsName="main-btn" btnTxt="Join Discord" btnUrl="https://discordapp.com" />
                 </div>
                 <div className="hero-main-content">
@@ -28,7 +28,7 @@ const Hero = () => {
                         />
                     </h1>
                 </div>
-                <div className="hero-sub-content">
+                <div className="hero-sub-content right">
                     <LargeButton clsName="main-btn" btnTxt="More Details" btnUrl="https://discordapp.com" />
                 </div>
             </div>

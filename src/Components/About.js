@@ -1,9 +1,22 @@
+// Typewriter
+import TypeWriterEffect from "react-typewriter-effect"
+
 const About = () => {
     return (
         <>
             <div className="section about-section" id="about">
                 <h1 className="section-title">
-                    About DunkingDucks!
+                    <TypeWriterEffect
+                        textStyle={{
+                            fontFamily: "Dancing Script",
+                            fontSize: "3rem",
+                            textAlign: "center"
+                        }}
+                        startDelay={100}
+                        cursorColor="#ffffff"
+                        text="About Dunking Ducks!"
+                        typeSpeed={100}
+                    />
                 </h1>
                 <div className="about-content">
                     <div className="about-imgs">
