@@ -24,6 +24,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .section-title {
@@ -89,7 +90,7 @@ a{
 
 /* ------Background Animation------ */
 .anim-area{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 0;
@@ -382,10 +383,6 @@ a{
   transition: all 0.3s ease-in-out;
 }
 
-.about-section .about-content .about-imgs:hover{
-  transform: rotateZ(5deg);
-}
-
 .about-section .about-content .about-imgs > .about-img{
   max-width: 300px;
   overflow: hidden;
@@ -406,10 +403,6 @@ a{
   margin: 0 20px;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
-}
-
-.about-section .about-content .about-txt:hover{
-  transform: rotateZ(5deg);
 }
 
 /* -------------Road Map Section------------- */
