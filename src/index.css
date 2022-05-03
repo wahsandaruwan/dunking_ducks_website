@@ -728,11 +728,7 @@ a{
     padding: 20px 0;
     font-size: 0.9rem;
   }
-
-  .nav-bar .menu li .menu-link:hover{
-    color: #ffffff;
-  }
-
+  
   /* Toggle menu */
   .nav-bar .menu-toggle-btn{
     display: block;
