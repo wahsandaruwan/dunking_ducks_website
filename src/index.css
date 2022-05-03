@@ -105,7 +105,7 @@ a{
   list-style: none;
   width: 25px;
   height: 25px;
-  background-color: rgb(130, 159, 187, 0.6);
+  background-color: rgb(32, 29, 29, 0.9);
   animation: bgAnim 20s linear infinite;
   bottom: -150px;
   border-radius: 50%;
@@ -235,7 +235,7 @@ a{
   z-index: 99;
   width: 100%;
   color: #ffffff;
-  background-color: rgb(67, 91, 116, 0.9);
+  background-color: rgba(68, 62, 62, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,7 +289,7 @@ a{
 
 .nav-bar .menu li .menu-link:hover,
 .nav-bar .menu li .menu-link.active{
-  color: #201d1d;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -299,7 +299,7 @@ a{
 
 /* -------------Hero Section------------- */
 .hero-section{
-  background-color: #2c3e50;
+  background-color: #4d4c4c;
   flex-direction: row;
 }
 
@@ -359,7 +359,7 @@ a{
 
 /* -------------About Section------------- */
 .about-section {
-  background-color: #34495e;
+  background-color: #5f5b5b;
   flex-direction: column;
 }
 
@@ -414,7 +414,7 @@ a{
 
 /* -------------Road Map Section------------- */
 .roadmap-section {
-  background-color: #2c3e50;
+  background-color: #4d4c4c;
   flex-direction: column;
 }
 
@@ -502,7 +502,7 @@ a{
 
 /* -------------Faq Section------------- */
 .faq-section {
-  background-color: #34495e;
+  background-color: #5f5b5b;
   flex-direction: column;
 }
 
@@ -571,7 +571,7 @@ a{
 
 /* -------------Team Section------------- */
 .team-section {
-  background-color: #2c3e50;
+  background-color: #4d4c4c;
   flex-direction: column;
 }
 
@@ -632,7 +632,7 @@ a{
 /* -------------Footer Section------------- */
 .footer-section{
   width: 100%;
-  background-color: #34495e;
+  background-color: #5f5b5b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -649,7 +649,7 @@ a{
 /* ------Social Links------ */
 .footer-section .social-links{
   margin-bottom: 10px;
-  background: #34495e;
+  background: #5f5b5b;
 }
 
 .footer-section .social-links .so-btn{
