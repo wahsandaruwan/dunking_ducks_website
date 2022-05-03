@@ -64,7 +64,8 @@ a{
 
 /* ------Social Media------ */
 .social-links {
-  background-color: #000000;
+  background: rgb(129, 185, 235);
+  background: linear-gradient(90deg, rgba(129, 185, 235, 1) 0%, rgba(11, 41, 69, 1) 100%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%, rgba(129, 58, 58, 1) 100%);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -506,7 +507,7 @@ a{
 /* ------Social Links------ */
 .footer-section .social-links{
   margin-bottom: 10px;
-  background-color: #34495e;
+  background: #34495e;
 }
 
 .footer-section .social-links .so-btn{
