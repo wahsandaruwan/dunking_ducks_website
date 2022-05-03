@@ -16,7 +16,6 @@ const RoadMap = () => {
                             return (
                                 <>
                                     <div className="event" key={index}>
-                                        <p className="step-no">{item.stepNo}</p>
                                         <Step stepName={item.stepName} stepDetails={item.stepDetails} />
                                     </div>
                                 </>

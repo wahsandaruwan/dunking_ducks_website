@@ -260,18 +260,40 @@ a{
 }
 
 .roadmap-section .roadmap-content{
-  max-width: 650px;
-  border-left: 4px solid #ffffff;
-  padding-left: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 850px;
+}
+
+.roadmap-section .roadmap-content::after{
+  position: absolute;
+  content: "";
+  background-color: #ffffff;
+  width: 4px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .roadmap-section .roadmap-content .event{
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
   position: relative;
-  margin: 10px 0;
+  margin: 30px 0;
+  padding-right: 30px;
+}
+
+.roadmap-section .roadmap-content .event:nth-child(even) {
+  align-self: flex-end;
+  justify-content: flex-start;
+  padding-right: 0;
+  padding-left: 30px;
 }
 
 /* ------Step Checkpoints------ */
-.roadmap-section .roadmap-content .event::before{
+.roadmap-section .roadmap-content .event::before {
   content: "";
   position: absolute;
   width: 20px;
@@ -279,27 +301,27 @@ a{
   border: 2px solid #ffffff;
   border-radius: 50%;
   background-color: #2c3e50;
-  left: -44px;
   top: 50%;
+  z-index: 90;
   transform: translateY(-50%);
   transition: all 0.3s ease-in-out;
+}
+
+.roadmap-section .roadmap-content .event:nth-child(odd)::before {
+  right: -12px;
+}
+
+.roadmap-section .roadmap-content .event:nth-child(even)::before{
+  left: -12px;
 }
 
 .roadmap-section .roadmap-content .event:hover::before{
   background-color: #ffffff;
 }
 
-.roadmap-section .roadmap-content .event .step-no{
-  position: absolute;
-  left: -110px;
-  color: #ffffff;
-  font-size: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 /* ------Step Content------ */
 .roadmap-section .roadmap-content .event .step-content{
+  width: 90%;
   background-color: #ffffff;
   border-radius: 20px;
   padding: 20px;
@@ -597,14 +619,22 @@ a{
   }
 
   /* ------Road Map Section------ */
-  .roadmap-section .roadmap-content .event .step-no {
-    position: static;
+  .roadmap-section .roadmap-content::after{
+    left: 0;
   }
-  
-  .roadmap-section .roadmap-content .event {
-    margin: 30px 0;
+
+  .roadmap-section .roadmap-content .event{
+    width: 100%;
+    align-self: flex-end;
+    justify-content: flex-start;
+    padding: 0;
+    padding-left: 30px;
   }
-  
+
+  .roadmap-section .roadmap-content .event::before{
+    left: -12px;
+  }
+
   .roadmap-section .roadmap-content .event .step-content .step-name {
     font-size: 1.8rem;
   }
