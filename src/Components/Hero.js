@@ -23,7 +23,7 @@ const Hero = () => {
                     <LargeButton clsName="main-btn" btnTxt="Join Discord" btnUrl="https://discordapp.com" />
                 </div>
                 <div className="hero-main-content">
-                    <div data-aos="fade" className="hero-img">
+                    <div data-aos="zoom-in" className="hero-img">
                         <img src="/assets/hero-img.gif" alt="" />
                     </div>
                     <h1 className="hero-txt">
