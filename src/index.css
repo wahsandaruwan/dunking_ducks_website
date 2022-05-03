@@ -703,13 +703,13 @@ a{
 
   .nav-bar .menu {
     position: absolute;
-    top: 76px;
+    top: 77px;
     left: -100%;
     display: block;
     width: 100%;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(67, 91, 116, 0.9);
+    background-color: rgba(68, 62, 62, 0.9);
     padding: 0;
     padding: 10px 0;
     transition: all 0.3s ease-in-out;
