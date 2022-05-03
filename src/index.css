@@ -28,6 +28,8 @@ body{
 }
 
 .section-title {
+  position: relative;
+  z-index: 90;
   text-align: center;
   color: #ffffff;
   font-size: 3rem;
@@ -635,14 +637,18 @@ a{
 
 /* ------Discord Button------ */
 .footer-section .discord .main-btn{
+  position: relative;
+  z-index: 90;
   display: block;
   margin-bottom: 10px;
 }
 
 /* ------Social Links------ */
 .footer-section .social-links{
+  position: relative;
+  z-index: 90;
   margin-bottom: 10px;
-  background: #5f5b5b;
+  background: transparent;
 }
 
 .footer-section .social-links .so-btn{
@@ -656,6 +662,8 @@ a{
 
 /* ------Credits------ */
 .footer-section .credit{
+  position: relative;
+  z-index: 90;
   text-align: center;
   color: #ffffff;
 }
