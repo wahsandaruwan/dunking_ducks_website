@@ -685,8 +685,8 @@ a{
     padding: 12px 20px;
   }
 
-  .section-title{
-    font-size: 2.2rem;
+  .section-title > div > h1{
+    font-size: 2.2rem !important;
   }
 
   /* ------Navigation Bar------ */
@@ -728,7 +728,7 @@ a{
     padding: 20px 0;
     font-size: 0.9rem;
   }
-  
+
   /* Toggle menu */
   .nav-bar .menu-toggle-btn{
     display: block;
@@ -746,6 +746,12 @@ a{
   /* ------Hero Section------ */
   .hero-section{
     flex-direction: column;
+    padding: 0;
+    padding: 50px 20px;
+  }
+
+  .hero-section .hero-main-content{
+    width: 100%;
   }
   
   .hero-section .hero-main-content .hero-img {
@@ -753,11 +759,12 @@ a{
     height: 200px;
   }
 
-  .hero-section .hero-main-content .hero-txt{
-    font-size: 2.5rem;
+  .hero-section .hero-main-content .hero-txt > div > h1{
+    font-size: 2.5rem !important;
   }
 
   .hero-section .hero-sub-content{
+    width: 100%;
     margin: 50px 0;
   }
 
@@ -799,6 +806,10 @@ a{
 
   .roadmap-section .roadmap-content .event::before{
     left: -12px;
+  }
+
+  .roadmap-section .roadmap-content .event .step-content{
+    width: 100%;
   }
 
   .roadmap-section .roadmap-content .event .step-content .step-name {

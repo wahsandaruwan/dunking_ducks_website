@@ -30,7 +30,7 @@ const Hero = () => {
                         <TypeWriterEffect
                             textStyle={{
                                 fontFamily: "Dancing Script",
-                                fontSize: "3.5rem",
+                                fontSize: "4rem",
                                 textAlign: "center"
                             }}
                             startDelay={100}
