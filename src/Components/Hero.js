@@ -1,5 +1,7 @@
 // Custom Component
 import LargeButton from "./LargeButton"
+// Typewriter
+import TypeWriterEffect from "react-typewriter-effect"
 
 const Hero = () => {
     return (
@@ -13,7 +15,17 @@ const Hero = () => {
                         <img src="/assets/hero-img.gif" alt="" />
                     </div>
                     <h1 className="hero-txt">
-                        Welcome to DunkingDucks!
+                        <TypeWriterEffect
+                            textStyle={{
+                                fontFamily: "Dancing Script",
+                                fontSize: "4rem",
+                                textAlign: "center"
+                            }}
+                            startDelay={100}
+                            cursorColor="#ffffff"
+                            text="Welcome to Dunking Ducks!"
+                            typeSpeed={100}
+                        />
                     </h1>
                 </div>
                 <div className="hero-sub-content">
