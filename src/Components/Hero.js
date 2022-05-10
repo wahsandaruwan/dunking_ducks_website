@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 // Custom Component
 import LargeButton from "./LargeButton"
-import BgAnimation from "./BgAnimation"
 // Typewriter
 import TypeWriterEffect from "react-typewriter-effect"
 // Scroll Animation
@@ -18,7 +17,6 @@ const Hero = () => {
     return (
         <>
             <div className="section hero-section" id="hero">
-                <BgAnimation />
                 <div className="hero-sub-content left">
                     <LargeButton clsName="main-btn" btnTxt="Join Discord" btnUrl="https://discordapp.com" />
                 </div>

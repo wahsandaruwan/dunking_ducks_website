@@ -753,7 +753,7 @@ a{
   .hero-section .hero-main-content{
     width: 100%;
   }
-  
+
   .hero-section .hero-main-content .hero-img {
     width: 200px;
     height: 200px;
@@ -773,7 +773,7 @@ a{
     flex-direction: column;
     align-items: center;
   }
-  
+
   .about-section .about-content .about-imgs {
     flex-basis: 100%;
     margin: 0;
@@ -833,7 +833,7 @@ a{
   .team-section .team-content {
     flex-direction: column;
   }
-  
+
   .team-section .team-content .team-member {
     margin: 0;
     margin: 10px 0;
@@ -843,7 +843,7 @@ a{
   .footer-section .credit .company {
     font-size: 0.8rem;
   }
-  
+
   .footer-section .credit .thanks {
     font-size: 0.7rem;
   }

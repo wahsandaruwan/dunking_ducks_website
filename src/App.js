@@ -1,5 +1,6 @@
 // Custom Components
 import About from "./Components/About";
+import BgAnimation from "./Components/BgAnimation";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
@@ -10,6 +11,7 @@ import Team from "./Components/Team";
 const App = () => {
   return (
     <>
+      <BgAnimation />
       <NavBar />
       <div className="scroll-container">
         <Hero />
